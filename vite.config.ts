@@ -4,10 +4,17 @@ import path from "path";
 
 export default defineConfig(({ mode }) => ({
   base: mode === "production" ? "/Invite/" : "/",
+
   plugins: [react()],
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+
+  server: {
+    host: "::",
+    port: 8080,
   },
 }));

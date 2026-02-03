@@ -1,9 +1,9 @@
 import { motion, useScroll, useSpring } from "framer-motion";
-import { HeroSection } from "@/components/HeroSection";
-import { MessageSection } from "@/components/MessageSection";
-import { EventDetails } from "@/components/EventDetails";
-import { RSVPSection } from "@/components/RSVPSection";
-import { Footer } from "@/components/Footer";
+import { HeroSection } from "../components/HeroSection";
+import { MessageSection } from "../components/MessageSection";
+import { EventDetails } from "../components/EventDetails";
+import { RSVPSection } from "../components/RSVPSection";
+import { Footer } from "../components/Footer";
 
 const Index = () => {
   const { scrollYProgress } = useScroll();
