@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/",   // ← important for local dev
+  base: "/Invite/",   // ← important for local dev
 
   server: {
     host: "::",
